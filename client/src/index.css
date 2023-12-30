@@ -1,0 +1,229 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  
+  -moz-osx-font-smoothing: grayscale;
+}
+ 
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+/* start css of nav and monday logo css */
+.nav-container{
+  overflow: hidden;
+  /* display: flex; */
+}
+
+.navbar-brand{
+  position: relative;
+}
+.navbar{
+  height: 58px;
+  background-color:yellow;
+  position:relative;
+  width: 100%;
+}
+
+/* .monday{
+  height: 50px;
+  margin-left: -500px;
+  position: relative
+} */
+/* start of header css */
+.monday{
+  height: 50px;
+}
+.text-style{
+  color: black;
+  margin-left: 45px;
+  position: absolute;
+}
+/* end of header css */
+/* start of css of sidebar */
+.rightSidebar{
+  width: 256px;
+}
+/* end of sidebar */
+.nav-container .row .col-md-12{
+  width: 100%;
+}
+/* end of css of nav and monday logo css */
+/* start of header icon logo css */
+.notifyStyle{
+  float: right;
+  margin-top: 15px;
+  
+}
+.notification{
+  color: black;
+  padding: 10px;
+  width: 50px;
+}
+.linkedOutlined{
+  color: black;
+  padding: 10px;
+  width: 50px;
+}
+.questionLined{
+  color: black;
+  padding: 10px;
+  width: 50px;
+}
+.inboxOutlined{
+  color: black;
+  padding: 10px;
+  width: 50px;
+}
+.pictureOutline{
+  color: black;
+  padding: 10px;
+  width: 50px;
+}
+.userGroup{
+  color: black;
+  padding: 10px;
+  width: 50px;
+}
+.toolOut{
+  color: black;
+  padding: 10px;
+  width: 50px;
+}
+.userAdd{
+  color: black;
+  padding: 10px;
+  width: 50px;
+}
+/* end of header icon logo css */
+
+/* start design of sidebar */
+  .sidebar{
+    position: relative; 
+    z-index:  2;
+    height: auto;
+  }
+  .menuStyle{
+    height: 620px;
+    color: black;
+    background-color: yellow;
+  }
+  .navButton{
+    margin-bottom: 16px;
+    background-color: yellow;
+  }
+/* end design of sidebar */
+
+/* start design of content */
+  .maincontent{
+    z-index:  3;
+    margin-top: 50px;
+    margin-left : 50px; 
+  }
+.chatContent{
+  background-color: grey;
+  margin-left: 280px;
+  margin-top: -670px;
+  overflow-y: scroll;
+  height: 740px;
+  
+}
+.card-list{
+  background-color: white;
+  overflow-y: scroll;
+
+}
+.card-body-newcontent{
+  position: relative; 
+  height: 400px;
+  overflow-y: scroll;
+}
+.rounded-circle{
+  width: 55px; 
+  height: auto;
+}
+.vh-100{
+  top:50px;
+  background-color: grey;
+  width: 1270px;
+  float: right;
+  margin-top: -730px;
+  margin-left: 80px;
+}
+.newcontent{
+  width: 100%;
+}
+
+.search-filter{
+  color:aqua
+}
+.comment{
+  color: blue;
+}
+
+
+.updateButton{
+  margin-top: -220px;
+  color: blueviolet;
+  background-color: blanchedalmond;
+}
+.vh-100-active{
+  margin-top: -640px;
+  margin-right: -500px;
+  overflow-y: scroll;
+}
+.vh-100-update{
+ background-color: lightgrey;
+ margin-left: 400px;
+ width: 1000px;
+ margin-top: 10px;
+}
+.vh-100-child-update{
+  border-radius: 2px;
+  background-color: lightgrey;
+  margin-top: -650px;
+  margin-left: 400px;
+  width: 1000px;
+}
+.vh-100-update-original{
+  background-color: lightgrey;
+  margin-left: 400px;
+  width: 1000px;
+  margin-top: -600px;
+}
+
+.analytics{
+  margin-top: -650px;
+}
+.mb-4-project-chart{
+  margin-left: 300px;
+}
+.mb-4-ticket-chart{
+  margin-left: 20px;
+  width: 380px;
+  height: 300px;
+}
+.mb-4-users-chart{
+  margin-left: 300px;
+  width: 380px;
+  height: 300px;
+}
+.mb-4-error-chart{
+  margin-left: 20px;
+  width: 380px;
+  height: 300px;
+}
+.mb-4-polar-chart{
+  margin-left: 300px;
+  width: 380px;
+  height: 300px;
+}
+
+.mb-4-rader-chart{
+  margin-left: 20px;
+  width: 380px;
+  height: 300px;
+}
