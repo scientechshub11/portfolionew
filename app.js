@@ -14,7 +14,7 @@ app.use(cors())
 const userRouter = require('./routes/user')
 app.use('/user', userRouter);
 // use res.render to load up an ejs view file
-sequelize.sync()
+// sequelize.sync();
 if(process.env.NOVE_ENV == "production"){
     app.use(express.static("client/build"));
 }
