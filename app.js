@@ -14,7 +14,7 @@ app.use(cors())
 const userRouter = require('./routes/user')
 app.use('/user', userRouter);
 // use res.render to load up an ejs view file
-//sequelize.sync()
+sequelize.sync()
 if(process.env.NOVE_ENV == "production"){
     app.use(express.static("client/build"));
 }
@@ -22,4 +22,4 @@ if(process.env.NOVE_ENV == "production"){
 app.listen(port,()=>{
     `app listen to the port ${port}`
 });
-
+// https://www.youtube.com/watch?v=7il2CrBA5VY
