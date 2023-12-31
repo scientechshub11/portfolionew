@@ -6,7 +6,7 @@ const Resume = () => {
   const [certificate, setCertificate] = useState([]);
   useEffect(() => {
     const getResume = async () => {
-      const response = await axios.get("http://localhost:8080/user");
+      const response = await axios.get("https://portfolio-my.onrender.com/user");
       let res = response.data.user;
       setResume(res);
     };
@@ -15,7 +15,7 @@ const Resume = () => {
   useEffect(() => {
     const getCertificate = async () => {
       const response = await axios.get(
-        "http://localhost:8080/user/certificate"
+        "https://portfolio-my.onrender.com/user/certificate"
       );
       let res = response.data.certificate;
       setCertificate(res);

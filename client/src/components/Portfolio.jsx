@@ -7,7 +7,7 @@ const Portfolio = () => {
   const [portfolio, setPortfolio] = useState([]);
   useEffect(() => {
     const getPortfolio = async () => {
-      const response = await axios.get("http://localhost:8080/user/project");
+      const response = await axios.get("https://portfolio-my.onrender.com/user/project");
       let res = response.data.project;
       setPortfolio(res);
     };
