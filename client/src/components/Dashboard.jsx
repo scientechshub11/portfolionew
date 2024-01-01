@@ -9,7 +9,7 @@ import Portfolio from "./Portfolio";
 import Skills from "./Skills";
 import Testimonial from "./Testimonial";
 import Facts from "./Facts";
-// import Typical from 'react-typical'
+import Typical from 'react-typical'
 // https://www.npmjs.com/package/react-type-animation
 const Dashboard = () => {
   return (
@@ -90,11 +90,11 @@ const Dashboard = () => {
         <div class="hero-container" data-aos="fade-in">
           <h1>Anwesha Chakraborty</h1>
           <p>
-            I'm Software Developer
+            I'm 
             <span className="primary-text">
               {" "}
               <h1 >
-                {/* <Typical
+                <Typical
                   loop={Infinity}
                   style={{color:"blueviolet"}}
                   steps={[
@@ -117,7 +117,7 @@ const Dashboard = () => {
                     "Motivational Video Producer 💻",
                     1000,
                   ]}
-                /> */}
+                />
               </h1>
             </span>
             {/* <span
